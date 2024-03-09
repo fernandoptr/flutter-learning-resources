@@ -1,4 +1,4 @@
-# Flutter Learning Resources
+# Flutter Learning Resources (in progress)
 A curated list of useful resources for learning Flutter.
 
 <a href="https://flutter.dev/">
@@ -7,14 +7,32 @@ A curated list of useful resources for learning Flutter.
 
 <br>
 
+## Work in progress
+This document is currently in progress. Here are the completion statuses for each section:
+- [x] Dart Language
+  - [x] Fundamentals
+  - [x] Algorithm & Data Structures
+  - [x] Paradigms
+  - [x] SOLID Principles
+  - [x] Design Patterns
+- [ ] State Management
+  - [ ] BLoC
+  - [ ] Riverpod
+  - [ ] RxDart
+- [ ] Architectural Pattern
+  - [ ] Three-Layer Architecture
+  - [ ] MVVM Architecture
+  - [ ] Clean Architecture
+- [ ] Testing
+
 ##  Priority Levels
 | Priority | Emoji | Description |
 | -------------- | ----- | ----------- |
-| Must | 🔥 | Essential resources for fundamental learning. |
-| Alternative | 🔄 | Substitute for essential resources with different perspectives or approaches. |
-| Recommended | 👍 | Highly suggested resources for those with more time. |
-| Optional | 💡 | Supplementary resources for further exploration. |
-| Watchlist | 👀 | Resources that seem promising but haven't been explored yet. |
+| Must | 🔥 | Essential resources for primary references and comprehensive learning. |
+| Alternative | 🔄 | Substitution for essential resources offers different approaches but may be less comprehensive. |
+| Recommended | 👍 | Highly recommended resources for thorough understanding and exploration. |
+| Optional | 💡 | Supplementary resources for further exploration in your spare time. |
+| Watchlist | 👀 | Promising resources that have yet to be explored. |
 
 <br>
 
@@ -40,18 +58,18 @@ A curated list of useful resources for learning Flutter.
 
 ## Dart Language<a name="dart-language"></a>
 - ### Fundamentals<a name="fundamentals"></a>
-    - 🔥 [Introduction to Dart](https://dart.dev/language) - The official Dart documentation provides a brief introduction to the Dart language through samples of its main features.
-    - 🔥 [Dart Tutorials](https://dart.dev/tutorials) - The official Dart tutorials provide a comprehensive guide on using the Dart language, tools, and APIs to build applications.
-    - 🔥 [Dart Codelabs](https://dart.dev/codelabs) -  The official Dart codelabs provide hands-on coding experiences for effective learning of the Dart language.
-    - 🔄 [Dart Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh&si=5sx5krEOZ7osTHqk) - A YouTube playlist by Net Ninja that offers a quick guide to learning the Dart language.
-    - 👍 [Effective Dart](https://dart.dev/effective-dart) - The official Dart guidelines provide best practices and common pitfalls for writing clear, concise, and effective code.
+    - 🔥 [Introduction to Dart](https://dart.dev/language) - The official Dart documentation provides a basic familiarity with the Dart language, covering basic syntax, types, patterns, functions, control flow, error handling, classes & objects, class modifiers, concurrency, and null safety.
+    - 🔥 [Dart Tutorials](https://dart.dev/tutorials) - The official Dart tutorials cover fundamental topics for building applications, including basics like streams and packages, as well as server-side Dart tutorials to develop scripts, command-line apps, and server apps.
+    - 🔥 [Dart Codelabs](https://dart.dev/codelabs) -  The official Dart codelabs provide hands-on coding experiences using DartPad for general topics like the Dart cheatsheet, Iterable collection, Asynchronous programming, and records & patterns.
+    - 🔄 [Dart Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh&si=5sx5krEOZ7osTHqk) - A YouTube playlist by Net Ninja provides a quick guide to learn Dart from scratch, readying you to build Flutter apps, covering basic syntax, types, functions, lists & sets, control flow, maps, classes, method overriding, generics, asynchronous programming, and data fetching.
+    - 👍 [Effective Dart](https://dart.dev/effective-dart) - The official Dart guidelines cover best practices and common pitfalls for writing clear, concise, and effective code, including the style, documentation, usage, and design guides.
 - ### Algorithm & Data Structures<a name="algo-ds"></a>
-    - 👀 [Data Structures & Algorithms in Dart](https://www.kodeco.com/books/data-structures-algorithms-in-dart) - A book by the Kodeco team that provides coverage of essential data structures and algorithms implemented in the Dart language.
+    - 👀 [Data Structures & Algorithms in Dart (Second Edition)](https://www.kodeco.com/books/data-structures-algorithms-in-dart) - A book by the Kodeco team that provides in-depth explanations, copious illustrations, and step-by-step examples of data structures and algorithms implemented in the Dart language.
 - ### Paradigms<a name="paradigms"></a>
-    - 🔥 [Dart Object Oriented Programming](https://dart-tutorial.com/object-oriented-programming/) - A web page by Dart Tutorial that provides a comprehensive guide to Object-Oriented Programming (OOP) using the Dart language.
-    - 🔥 [Practical Functional Programming in Dart & Flutter](https://youtu.be/8U2NH4fEmSs?si=FgZgDNy2e0bRIIGr) - A YouTube video by Reso Coder that explains practical Functional Programming (FP) concepts with the Dart language.
+    - 🔥 [OOPS in Dart](https://www.scaler.com/topics/flutter-tutorial/oops-in-dart/) - A web page by Scaler that provides a comprehensive explanation of object-oriented programming (OOP) concepts in Dart, including classes, objects, encapsulation, inheritance, polymorphism, abstraction, mixins, and interfaces.
+    - 🔥 [Practical Functional Programming in Dart & Flutter](https://youtu.be/8U2NH4fEmSs?si=FgZgDNy2e0bRIIGr) - A YouTube video by Reso Coder that explains the basics of practical functional programming (FP) concepts with the Dart language, covering the contrast with imperative programming, OOP class hierarchies, and error handling.
 - ### SOLID Principles<a name="solid"></a>
-    - 🔥 [SOLID principles in Dart - Every PRO Coder Follows This!](https://www.youtube.com/watch?v=A5Q5F7lCquQ&ab_channel=FlutterGuys) - A YouTube video by Flutter Guy that provides a quick overview of S.O.L.I.D principles using the Dart language.
+    - 🔥 [SOLID principles in Dart - Every PRO Coder Follows This!](https://www.youtube.com/watch?v=A5Q5F7lCquQ&ab_channel=FlutterGuys) - A YouTube video by Flutter Guy that provides a quick overview of SOLID principles using the Dart language.
     - 👍 [The First Step To Clean Architecture | Flutter SOLID Principles](https://www.youtube.com/watch?v=RhXh09PMI1I&t=1457s&ab_channel=RivaanRanawat) - A YouTube video by Reso Coder that provides an in-depth explanation of SOLID Principles with the Dart language.
 - ### Design Patterns<a name="design-patterns"></a>
     - 🔥 [Design Patterns in Flutter for beginners](https://youtube.com/playlist?list=PLlzmAWV2yTgB-1LdoO-9vCTgrE-1dyWKP&si=g5ycWn9cBBG7Os63) - A YouTube playlist by Rivaan Ranawat that explains essential design patterns such as Factory, Singleton, Prototype, and Adapter implemented in the Dart language.
